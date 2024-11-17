@@ -1,0 +1,360 @@
+*  { font-family:'Times New Roman', Times, serif;
+        background: #f8e9e9;
+    
+
+}
+/* fondo todas las paginas */
+body{
+    background: #f8e9e9;
+    margin: 3% 3% 3% 3%;
+}
+
+section{
+    align-items: center;
+}
+
+/* formato header */
+header{
+    background-size:cover;
+    background: url(https://img.pikbest.com/wp/202343/versatiles-top-view-of-natural-green-leaves-texture-background-versatile-copy-space-for-banners-wallpapers-and-more_9985956.jpg!w700wp);
+    width: 50vh 50vw;
+    background-repeat:repeat;
+   
+   
+   
+}
+/* formado navegacion */
+.listas{
+    color: #257180;
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f8e9e9; 
+     
+     
+ }
+/* formato footer */
+.footer{
+    padding-top: 0.5%;
+    display: grid;
+    font-display: left;
+    grid-template-columns: 100px 1fr 1fr;
+    width: 100vw;
+    box-shadow: 4px  4px 8px rgb(157, 163, 216);
+    box-sizing: border-box;
+    background: #f8e9e9;
+}
+
+/* formato logo */
+.logo-aires{
+    display: inline-flex;
+    background-size:cover;
+    background: url(https://img.pikbest.com/wp/202343/versatiles-top-view-of-natural-green-leaves-texture-background-versatile-copy-space-for-banners-wallpapers-and-more_9985956.jpg!w700wp);
+    width: 50vh 50vw;
+    background-repeat:repeat
+   
+} 
+
+.card-title{
+    color:#257180;
+    font-style:oblique ;/* VER DONDE SE USA */
+    
+}
+/* formato general encabezado y h */
+.encabezado{
+
+    display:inline;
+    background: #f8e9e9;;
+
+}
+
+h3{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e8f0e6;
+    display: inline;
+
+}
+h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #656b63;
+    display: inline;
+    background: none;
+   
+
+}
+h4{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(124, 133, 133);
+    font-size: larger;
+
+}
+
+.titulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:antiquewhite;display: inline;
+    text-align: center;
+    text-align: start;
+    background: none;
+  
+   
+}
+.parrafo-principal{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(208, 203, 238);
+}
+/* FORMATOS subtitulos seccion CONOCENOS*/
+.subtitulo{color:#5e696b;
+    text-decoration: underline;
+    text-shadow: 0cqh;
+    text-decoration-style:unset;
+    font-style: italic;
+    font-variant: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-variant: small-caps;
+
+
+}
+.contacto{
+    width: 100vw;
+}
+    
+
+.parrafo {
+    display: inline-block;
+    font-style: oblique;
+    font-size: small;
+    color: beige;
+    background-color:darkslategrey
+
+}
+.articulo {
+    background-color: darkslategray;
+    color: beige;
+
+}
+/* formato tarjeta paginas */
+.contedor{
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: space-between; 
+    padding: 2el;
+    width: 100vh;
+    max-width: 200el;
+    margin: 0% auto;
+    align-items: stretch;
+    background: #f8e9e9;
+    margin: 3% 3% 3% 3%;
+    align-content: center;
+    display: flex; /* utilizamos flexbox para organizar los productos */
+    flex-wrap:wrap ;/*  permite que los productos se organicen en varias filas */
+    justify-content: space-between; /* espacio uniforme entre productos */
+    padding: 20px;
+
+
+
+}
+/* mediaquiries  para tarjeta */ 
+
+
+
+/* formato tarjetas direccion y horario */
+.tarjeta2{
+    background-color: #f8e9e9;
+    color:#5e696b;
+    padding:1px;
+    text-align: center;
+    gap:3px;
+    box-shadow: 0  4px 8px rgb(157, 163, 216);/*  (añadimos una sutil sombra) */
+    box-sizing: border-box;/*  incluir padding en el ancho total */
+    align-items: center;
+}
+
+/* formato secciones  tarjetas */
+.card{
+    display:grid;
+    background: #f8e9e9;
+    margin: 3% 10% 3% 0%;
+    flex-wrap:wrap ;
+    width:auto;
+    align-items: center;
+ 
+
+}
+
+.servicios{
+    box-shadow: 0  4px 8px rgb(157, 163, 216);/*  (añadimos una sutil sombra) */
+    box-sizing: border-box;/*  incluir padding en el ancho total */
+    margin: 3% 3% 3% 3%;
+}
+.titulo-servicio{
+    color:antiquewhite;display: inline;
+    text-align: center;
+    text-align: start;
+}
+
+/* formato tarjeta seccion conocenos */
+.tarjeta{
+    display: inline-flex;
+    flex-direction: column;
+    column-width: 25%;
+    background: #f8e9e9;;
+    margin: bottom 20el; ;
+    margin:10el auto ;
+    padding: 15el;
+    text-align: center;
+    box-shadow: 0  4px 8px rgb(157, 163, 216);
+    box-sizing: border-box;
+   width: auto;
+/*     justify-content: space-between; */
+/*     align-items: stretch; */
+    align-items: center;
+    margin: 1% 1% 1% 1%;
+} 
+/* formato parrafo tarjeta conocenos */
+.parrafo-tarjeta{
+
+    display: block;
+    align-items: flex-end;
+    text-align: justify;
+    
+
+    background: #f8e9e9;;
+
+    
+}
+img {display: inline;
+    width: 40vh 40vw;
+  
+
+}
+
+
+
+.titulo-tarjeta{
+
+    font-size: 24px;
+
+    padding: 3px 3px 3px 3px;
+
+}
+.cuerpo-tarjeta{
+
+    padding: 3px 3px 3px 3px;
+    background: #f8e9e9;;
+
+
+}
+.contenedor{
+    display: inline-block;
+    flex-direction: column;
+ 
+}
+
+
+.contenedor2{
+    display: grid;
+    padding: 5%;
+    grid-template-rows: 1fr auto 50px;
+/*     gap: 3px    ; */
+    width: 100vw;
+    color: #5e696b;
+   
+}
+
+  
+.Esteticaemml{
+color: #ffee(71, 71, 155);
+text-align: center;
+background: #F2E5BF;
+}
+
+.reseña{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+
+    gap:10px; 
+    box-shadow: 4px 4px 4px 4px rgb(157, 163, 216);/*  (añadimos una sutil sombra) */
+    box-sizing: border-box;/
+
+}
+/* formato nuestra tienda  */
+.parrafo-servicio{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:medium;
+}
+
+
+.servicios{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:5px; 
+    background: #f8e9e9;
+    margin: 3% 3% 3% 3%;
+    box-shadow: 0  4px 8px rgb(157, 163, 216);/*  (añadimos una sutil sombra) */
+    box-sizing: border-box;/*  incluir padding en el ancho total */
+    margin: 3% 3% 3% 3%;
+    align-items:center;
+}
+
+.carousel-item img {
+    height: 500px; /* Altura fija de las imágenes */
+    object-fit: cover
+    }
+/* formato nuestros servicios */
+.servicios2{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0.3%;
+    gap: 0.3%;
+    background: #f8e9e9;
+    margin: 3% 3% 3% 3%;
+    box-shadow: 0  4px 8px rgb(157, 163, 216);/*  (añadimos una sutil sombra) */
+    box-sizing: border-box;/*  incluir padding en el ancho total */
+    align-items:center;
+    padding: 0%;
+}
+/* seccion nuestros sevicios mediaqueries */
+ @media(max-width: 612px){
+    .servicios2{
+    display: inline-block;
+    }
+}
+@media(max-width: 612px){
+    .footer{
+    display: inline-block;
+    }
+}
+@media (max-width: 919px){
+    .row{
+        display:auto
+        }
+    .contenedor{
+    width: auto;
+}
+    .tarjeta    {
+    width: auto;
+}
+    .tarjeta-main{
+        width: auto;
+    } 
+}
+@media (max-width: 480px){
+    .contenedor{
+    width: auto;
+    }
+    .tarjeta {
+        width: auto;
+    }
+    .card{
+        width: auto;
+    }
+    .footer{
+        display: inline-block;
+    
+    }
+}
+ 
